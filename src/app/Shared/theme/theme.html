@@ -1,0 +1,233 @@
+
+    <button class="btn btn-light-primary rounded-end-0 d-none d-md-inline-flex position-fixed end-0 switcher-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-label="Settings">
+    <i class="ri-settings-3-line fs-19 lh-1 rotate-animation"></i><span class="fs-16 lh-1">Customize</span>
+</button>
+<div class="offcanvas offcanvas-end border-0 data-theme-colors layout-customizer" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="flex-wrap align-items-center p-5 offcanvas-header">
+        <h6 class="m-0" id="offcanvasRightLabel">Theme Customization</h6>
+        <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div data-simplebar class="h-100 px-5 mx-n5">
+            <h6 class="mb-5 fw-semibold">Layout:</h6>
+            <div class="row gy-3">
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="customizer-layout01" name="data-layout" type="radio" value="vertical" class="form-check-input" checked>
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="customizer-layout01">
+                            <img src="assets/images/switcher/vertical.png" alt="Vertical" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Vertical</h5>
+                </div>
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="customizer-layout02" name="data-layout" type="radio" value="horizontal" class="form-check-input">
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="customizer-layout02">
+                            <img src="assets/images/switcher/horizontal.png" alt="Horizontal" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Horizontal</h5>
+                </div>
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="customizer-layout03" name="data-layout" type="radio" value="semibox" class="form-check-input">
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="customizer-layout03">
+                            <img src="assets/images/switcher/semibox.png" alt="Semi Box" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Semi Box</h5>
+                </div>
+                <!-- end col -->
+            </div>
+
+            <h6 class="my-5 fw-semibold">Content Width:</h6>
+
+            <div class="row gy-3">
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="defaultContent" name="data-content-width" type="radio" value="default" class="form-check-input" checked>
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="defaultContent">
+                            <img src="assets/images/switcher/vertical.png" alt="Vertical" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Default</h5>
+                </div>
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="boxLayout" name="data-content-width" type="radio" value="box" class="form-check-input">
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="boxLayout">
+                            <img src="assets/images/switcher/box.png" alt="Box" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Box</h5>
+                </div>
+                <!-- end col -->
+            </div>
+
+            <h6 class="my-5 fw-semibold">Layout Direction:</h6>
+
+            <div class="row gy-3">
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="ltrMode" name="dir" type="radio" value="ltr" class="form-check-input" checked>
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="ltrMode">
+                            <img src="assets/images/switcher/ltr.png" alt="LTR" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">LTR</h5>
+                </div>
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="rtlMode" name="dir" type="radio" value="rtl" class="form-check-input">
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="rtlMode">
+                            <img src="assets/images/switcher/rtl.png" alt="RTL" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">RTL</h5>
+                </div>
+                <!-- end col -->
+            </div>
+
+            <h6 class="my-5 fw-semibold">Layout Mode:</h6>
+
+            <div class="row gy-3">
+                <div class="col-6">
+                    <div>
+                        <input id="layout-light" name="data-bs-theme" type="radio" value="light" class="form-check-input" checked>
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="layout-light">
+                            <img src="assets/images/switcher/light.png" alt="Light" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Light</h5>
+                </div>
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="layout-dark" name="data-bs-theme" type="radio" value="dark" class="form-check-input">
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2 bg-dark" for="layout-dark">
+                            <img src="assets/images/switcher/dark.png" alt="Dark" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Dark</h5>
+                </div>
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="automode" name="data-bs-theme" type="radio" value="auto" class="form-check-input">
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="automode">
+                            <img src="assets/images/switcher/system.png" alt="System" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">System</h5>
+                </div>
+                <!-- end col -->
+            </div>
+
+            <h6 class="my-5 fw-semibold">Sidebar Size:</h6>
+
+            <div class="row gy-3">
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="sidebar-default" name="data-sidebar" type="radio" value="default" class="form-check-input" checked>
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="sidebar-default">
+                            <img src="assets/images/switcher/vertical.png" alt="Vertical" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Default</h5>
+                </div>
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="sidebar-medium" name="data-sidebar" type="radio" value="medium" class="form-check-input" checked>
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="sidebar-medium">
+                            <img src="assets/images/switcher/medium.png" alt="Medium" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Medium</h5>
+                </div>
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="sidebar-icon" name="data-sidebar" type="radio" value="icon" class="form-check-input">
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="sidebar-icon">
+                            <img src="assets/images/switcher/icon.png" alt="Icon" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Icon</h5>
+                </div>
+                <div class="col-6">
+                    <div class="border overflow-hidden rounded-2">
+                        <input id="sidebar-icon-hover" name="data-sidebar" type="radio" value="icon-hover" class="form-check-input">
+                        <label class="form-check-label p-0 avatar-3xl w-100 rounded-2" for="sidebar-icon-hover">
+                            <img src="assets/images/switcher/icon-hover.png" alt="Icon Hover" class="img-fluid">
+                        </label>
+                    </div>
+                    <h5 class="small mt-2 px-2">Icon hover</h5>
+                </div>
+                <!-- end col -->
+            </div>
+
+            <div id="sidebar-color" class="mb-4 sidebar-color-theme">
+                <h6 class="mb-0 mt-5 fw-semibold">Sidebar Color</h6>
+                <p class="text-muted mb-2">Choose a sidebar background color.</p>
+                <div class="d-flex flex-wrap main-sidebar-color gap-2">
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-sidebar-color" id="sidebarColorLight" value="light">
+                        <label class="form-check-label rounded-3" for="sidebarColorLight"></label>
+                    </div>
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-sidebar-color" id="sidebarColorMidnight" value="dark">
+                        <label class="form-check-label rounded-3" for="sidebarColorMidnight"></label>
+                    </div>
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-sidebar-color" id="sidebarColorDark" value="rosewood">
+                        <label class="form-check-label rounded-3" for="sidebarColorDark"></label>
+                    </div>
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-sidebar-color" id="sidebarColorAqua" value="indigo">
+                        <label class="form-check-label rounded-3" for="sidebarColorAqua"></label>
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar-color" class="my-5">
+                <h6 class="mb-0 mt-5 fw-semibold">Primary Color</h6>
+                <p class="text-muted mb-2">Choose a color of Primary.</p>
+                <div class="d-flex flex-wrap main-sidebar-color gap-2">
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-theme-colors" id="themeColor-01" value="default" checked>
+                        <label class="form-check-label rounded-3" for="themeColor-01"></label>
+                    </div>
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-theme-colors" id="themeColor-03" value="skyblue">
+                        <label class="form-check-label rounded-3" for="themeColor-03"></label>
+                    </div>
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-theme-colors" id="themeColor-02" value="orange">
+                        <label class="form-check-label rounded-3" for="themeColor-02"></label>
+                    </div>
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-theme-colors" id="themeColor-04" value="purple">
+                        <label class="form-check-label rounded-3" for="themeColor-04"></label>
+                    </div>
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-theme-colors" id="themeColor-05" value="green">
+                        <label class="form-check-label rounded-3" for="themeColor-05"></label>
+                    </div>
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-theme-colors" id="themeColor-06" value="pink">
+                        <label class="form-check-label rounded-3" for="themeColor-06"></label>
+                    </div>
+                    <div class="form-check sidebar-setting card-radio">
+                        <input class="form-check-input" type="radio" name="data-theme-colors" id="themeColor-07" value="teal">
+                        <label class="form-check-label rounded-3" for="themeColor-07"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center justify-end gap-2 modal-footer pt-6 border-top">
+                <button type="button" class="btn btn-light" id="resetBtn">
+                    <i class="ri-reset-right-line me-1"></i> Reset
+                </button>
+                <button type="button" class="btn btn-primary">
+                    <i class="ri-shopping-bag-3-line me-1"></i> Buy Now
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

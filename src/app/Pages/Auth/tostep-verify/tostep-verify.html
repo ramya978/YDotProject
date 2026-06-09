@@ -1,0 +1,29 @@
+<div class="min-vh-100 d-flex align-items-center justify-content-center px-5 py-10 auth-bg">
+    <div class="main-wrapper border bg-white rounded-4 d-flex flex-column flex-lg-row gap-xl-5 position-relative overflow-hidden w-100 shadow">
+        <div class="decoration-section m-5 bg-dark-subtle rounded-3 me-0 mb-0 mb-lg-5"></div>
+        <div class="login-section bg-white rounded-4 p-6 px-xl-12">
+            <a href="index" class="d-flex justify-content-end align-items-center gap-2 logo-main mt-lg-2 mb-5 mb-lg-0">
+                <img height="33" width="33" class="logo-dark" alt="Dark Logo" src="assets/images/logo-md.png">
+                <h3 class="mb-0 lh-base fw-semibold">Mirbal</h3>
+            </a>
+            <div class="d-flex flex-column justify-content-center h-100 ">
+                <div class="mb-12">
+                    <h5 class="mb-2">Two-Factor Authentication</h5>
+                    <p class="text-muted mb-0">6 digit OTP is send to mobile number <a href="#!" class="fw-medium">info</a></p>
+                </div>
+                <form>
+                    <div id="otp-container" class="d-flex flex-wrap flex-md-nowrap align-items-center justify-content-center gap-2 mb-6">
+                        <input type="text" class="form-control text-center min-h-50px max-w-64px border rounded" placeholder="0" data-otp-input maxlength="1" inputmode="numeric" pattern="[0-9]" aria-label="OTP digit 1">
+                        <input type="text" class="form-control text-center min-h-50px max-w-64px border rounded" placeholder="0" data-otp-input maxlength="1" inputmode="numeric" pattern="[0-9]" aria-label="OTP digit 2">
+                        <input type="text" class="form-control text-center min-h-50px max-w-64px border rounded" placeholder="0" data-otp-input maxlength="1" inputmode="numeric" pattern="[0-9]" aria-label="OTP digit 3">
+                        <input type="text" class="form-control text-center min-h-50px max-w-64px border rounded" placeholder="0" data-otp-input maxlength="1" inputmode="numeric" pattern="[0-9]" aria-label="OTP digit 4">
+                        <input type="text" class="form-control text-center min-h-50px max-w-64px border rounded" placeholder="0" data-otp-input maxlength="1" inputmode="numeric" pattern="[0-9]" aria-label="OTP digit 5">
+                        <input type="text" class="form-control text-center min-h-50px max-w-64px border rounded" placeholder="0" data-otp-input maxlength="1" inputmode="numeric" pattern="[0-9]" aria-label="OTP digit 6">
+                    </div>
+                    <a href="auth-reset-password" class="btn btn-primary w-100">Reset Password</a>
+                </form>
+                <p class="text-center text-muted fs-14 my-6">Didn't receive the code? <a href="#!" class="link link-primary">Resend</a></p>
+            </div>
+        </div>
+    </div>
+</div>
